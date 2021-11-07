@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane stylesheets="/sample.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <HBox BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <GridPane prefHeight="333.0" prefWidth="448.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints percentWidth="5" />
+          <ColumnConstraints percentWidth="30" />
+            <ColumnConstraints percentWidth="50" />
+            <ColumnConstraints percentWidth="5" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints percentHeight="10" />
+          <RowConstraints percentHeight="70" />
+          <RowConstraints percentHeight="10" />
+            <RowConstraints percentHeight="10" />
+        </rowConstraints>
+         <children>
+            <ListView fx:id="listKorisnici" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="69.0" minWidth="8.0" prefWidth="13.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="133.0" minWidth="10.0" prefWidth="119.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Ime:" GridPane.columnIndex="1" />
+                  <Label text="Prezime" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="E-mail" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label text="Korisničko ime:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="Lozinka:" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="fldIme" GridPane.columnIndex="2" />
+                  <TextField fx:id="fldPrezime" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <TextField fx:id="fldEmail" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <TextField fx:id="fldUsername" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <PasswordField fx:id="fldPassword" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+            <GridPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+              <columnConstraints>
+                  <ColumnConstraints percentWidth="30" />
+                <ColumnConstraints percentWidth="35" />
+                <ColumnConstraints percentWidth="35" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btnDodaj" mnemonicParsing="false" onAction="#dodaj" text="Dodaj" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                  <Button fx:id="kraj" mnemonicParsing="false" onAction="#kraj" text="Kraj" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

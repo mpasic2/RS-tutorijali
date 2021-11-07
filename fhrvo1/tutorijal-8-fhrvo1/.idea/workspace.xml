@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="421d7fb7-fab3-48c2-b140-ac993b300cb0" name="Default Changelist" comment="dodano kreiranje baze prilikom incijalizacije">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/res/sample.fxml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1bTwg919nmjeH52CLyGMD3TF2Jr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30804598" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rs.tutorijal8" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\RS\tutorijal-7-fhrvo1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rs.tutorijal8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NewMain">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.Main" />
+      <module name="Tutorijal_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.NewMain" />
+      <module name="Tutorijal_8" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Tutorijal_8" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PripremaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rs.tutorijal8" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.PripremaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zadatak2Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:ba.unsa.etf.rs.tutorijal8.Zadatak2Test]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zadatak2Test (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:ba.unsa.etf.rs.tutorijal8.Zadatak2Test]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zadatak2Test.dodijeliIIspisiAutobuse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rs.tutorijal8" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.Zadatak2Test" />
+      <option name="METHOD_NAME" value="dodijeliIIspisiAutobuse" />
+      <option name="TEST_OBJECT" value="method" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:ba.unsa.etf.rs.tutorijal8.Zadatak2Test]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ba.unsa.etf.rs.tutorijal8 in Tutorijal_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rs.tutorijal8" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ba.unsa.etf.rs.tutorijal8 in Tutorijal_8" />
+        <item itemvalue="JUnit.PripremaTest" />
+        <item itemvalue="JUnit.Zadatak2Test.dodijeliIIspisiAutobuse" />
+        <item itemvalue="JUnit.Zadatak2Test (4)" />
+        <item itemvalue="JUnit.Zadatak2Test (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="421d7fb7-fab3-48c2-b140-ac993b300cb0" name="Default Changelist" comment="" />
+      <created>1557517057358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557517057358</updated>
+      <workItem from="1557517066080" duration="1612000" />
+      <workItem from="1557652197101" duration="1267000" />
+      <workItem from="1588843480191" duration="1694000" />
+      <workItem from="1588854722717" duration="2647000" />
+      <workItem from="1588860271355" duration="61000" />
+      <workItem from="1588870095019" duration="1038000" />
+      <workItem from="1588921210517" duration="122000" />
+      <workItem from="1588929124622" duration="32000" />
+      <workItem from="1588934500950" duration="4573000" />
+      <workItem from="1588942467845" duration="2548000" />
+      <workItem from="1588945025401" duration="885000" />
+      <workItem from="1589033259201" duration="8098000" />
+      <workItem from="1589445595362" duration="4581000" />
+      <workItem from="1589451030174" duration="973000" />
+      <workItem from="1589452693579" duration="67000" />
+      <workItem from="1589453159335" duration="3348000" />
+      <workItem from="1589470170579" duration="3000" />
+      <workItem from="1589545926720" duration="16000" />
+      <workItem from="1589547162840" duration="51000" />
+      <workItem from="1589647050596" duration="281000" />
+      <workItem from="1589720715788" duration="1000" />
+      <workItem from="1589721294176" duration="2202000" />
+      <workItem from="1589881750127" duration="2256000" />
+      <workItem from="1590829852503" duration="757000" />
+      <workItem from="1590830869764" duration="2411000" />
+      <workItem from="1591264212196" duration="404000" />
+      <workItem from="1591878392016" duration="246000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1557517574894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557517574894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Resetovanje baze prije svakog testiranja">
+      <created>1557652259211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557652259211</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Napravljena klasa Driver za vozaca">
+      <created>1588763816558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588763816558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="izmjenjena klasa Driver za vozaca">
+      <created>1588764260596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588764260596</updated>
+    </task>
+    <task id="LOCAL-00005" summary="napravljena klasa Bus">
+      <created>1588764489437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588764489437</updated>
+    </task>
+    <task id="LOCAL-00006" summary="napravljena klasa TransportDAO i konekcija na bazu">
+      <created>1588845889777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588845889777</updated>
+    </task>
+    <task id="LOCAL-00007" summary="napravljene klase za dodavanje i brisanje vozaca i autobusa, trebaju se spojiti sa bazom">
+      <created>1588860511682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588860511682</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dodavanje i brisanje vozaca i autobusa spojeno sa bazom">
+      <created>1588868111220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588868111220</updated>
+    </task>
+    <task id="LOCAL-00009" summary="popravljen reset baze">
+      <created>1588870977278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588870977278</updated>
+    </task>
+    <task id="LOCAL-00010" summary="napravljeno dodijeliVozacuAutobus">
+      <created>1588939068625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588939068625</updated>
+    </task>
+    <task id="LOCAL-00011" summary="popravljeno dodijeliVozacuAutobus">
+      <created>1588944863276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588944863276</updated>
+    </task>
+    <task id="LOCAL-00012" summary="popravljena toString metoda u Bus, prolaze svi testovi">
+      <created>1588945814121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588945814121</updated>
+    </task>
+    <task id="LOCAL-00013" summary="napravljeno učitavanje tabele Driver u FXML">
+      <created>1589378467778</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589378467778</updated>
+    </task>
+    <task id="LOCAL-00014" summary="napravljeno učitavanje tabele Bus u FXML">
+      <created>1589379579610</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589379579610</updated>
+    </task>
+    <task id="LOCAL-00015" summary="napravljeno brisanje vozaca iz FXML">
+      <created>1589383776754</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589383776754</updated>
+    </task>
+    <task id="LOCAL-00016" summary="napravljeno dodavanje vozaca iz FXML">
+      <created>1589447243577</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589447243577</updated>
+    </task>
+    <task id="LOCAL-00017" summary="napravljeno dodavanje i brisanje autobusa iz FXML">
+      <created>1589451380866</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589451380866</updated>
+    </task>
+    <task id="LOCAL-00018" summary="napravljeno dodjeljivanje vozaca autobusu iz FXML">
+      <created>1589647317805</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589647317805</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dodano kreiranje baze prilikom incijalizacije">
+      <created>1590830271349</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830271349</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Resetovanje baze prije svakog testiranja" />
+    <MESSAGE value="Napravljena klasa Driver za vozaca" />
+    <MESSAGE value="izmjenjena klasa Driver za vozaca" />
+    <MESSAGE value="napravljena klasa Bus" />
+    <MESSAGE value="napravljena klasa TransportDAO i konekcija na bazu" />
+    <MESSAGE value="napravljene klase za dodavanje i brisanje vozaca i autobusa, trebaju se spojiti sa bazom" />
+    <MESSAGE value="dodavanje i brisanje vozaca i autobusa spojeno sa bazom" />
+    <MESSAGE value="popravljen reset baze" />
+    <MESSAGE value="napravljeno dodijeliVozacuAutobus" />
+    <MESSAGE value="popravljeno dodijeliVozacuAutobus" />
+    <MESSAGE value="popravljena toString metoda u Bus, prolaze svi testovi" />
+    <MESSAGE value="napravljeno učitavanje tabele Driver u FXML" />
+    <MESSAGE value="napravljeno učitavanje tabele Bus u FXML" />
+    <MESSAGE value="napravljeno brisanje vozaca iz FXML" />
+    <MESSAGE value="napravljeno dodavanje vozaca iz FXML" />
+    <MESSAGE value="napravljeno dodavanje i brisanje autobusa iz FXML" />
+    <MESSAGE value="napravljeno dodjeljivanje vozaca autobusu iz FXML" />
+    <MESSAGE value="dodano kreiranje baze prilikom incijalizacije" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano kreiranje baze prilikom incijalizacije" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="108" key="#Inspections" timestamp="1589370834720">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="346" y="108" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1589370834720" />
+    <state x="312" y="88" width="816" height="729" key="#Intentions" timestamp="1589448772019">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" width="816" height="729" key="#Intentions/0.0.1440.860@0.0.1440.860" timestamp="1589448772019" />
+    <state x="429" y="49" key="#Main" timestamp="1588934777894">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="429" y="49" key="#Main/0.0.1440.860@0.0.1440.860" timestamp="1588934777894" />
+    <state x="429" y="49" key="#NewMain" timestamp="1589370324145">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="429" y="49" key="#NewMain/0.0.1440.860@0.0.1440.860" timestamp="1589370324145" />
+    <state x="109" y="271" key="#SQL_Dialects" timestamp="1588858893475">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="109" y="271" key="#SQL_Dialects/0.0.1440.860@0.0.1440.860" timestamp="1588858893475" />
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591904767730">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1591904767730" />
+    <state x="92" y="92" width="1256" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588944364650">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.860@0.0.1440.860" timestamp="1588944364650" />
+    <state x="463" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588936194295">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="463" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.860@0.0.1440.860" timestamp="1588936194295" />
+    <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1589448825376">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1589448825376" />
+    <state x="568" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588669505049">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="568" y="319" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.860@0.0.1440.860" timestamp="1588669505049" />
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588763240304">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1588763240304" />
+    <state x="487" y="12" key="CommitChangelistDialog2" timestamp="1589368943349">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="487" y="12" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1589368943349" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1588942488439">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588942488439" />
+    <state width="1397" height="181" key="GridCell.Tab.0.bottom" timestamp="1590830609641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="181" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1590830609641" />
+    <state width="1397" height="181" key="GridCell.Tab.0.center" timestamp="1590830609641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="181" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1590830609641" />
+    <state width="1397" height="181" key="GridCell.Tab.0.left" timestamp="1590830609641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="181" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1590830609641" />
+    <state width="1397" height="181" key="GridCell.Tab.0.right" timestamp="1590830609641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="181" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1590830609641" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1589450714008">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1589450714008" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1589450714008">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1589450714008" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1589450714008">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1589450714008" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1589450714008">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1589450714008" />
+    <state x="200" y="4" key="SettingsEditor" timestamp="1589369634925">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1589369634925" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590830276539">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1590830276539" />
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591903638146">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1591903638146" />
+    <state x="424" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588846215757">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="424" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.860@0.0.1440.860" timestamp="1588846215757" />
+    <state x="518" y="119" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588857936477">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="518" y="119" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.860@0.0.1440.860" timestamp="1588857936477" />
+    <state x="529" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589369389687">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="529" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1589369389687" />
+    <state x="441" y="221" key="git4idea.merge.GitPullDialog" timestamp="1589369406767">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="441" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1589369406767" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1588938527674">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1588938527674" />
+  </component>
+</project>

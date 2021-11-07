@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.tut4.Controller">
+    <tabs>
+        <Tab text="Artikli">
+            <content>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="335.0" minWidth="10.0" prefWidth="300.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="345.0" minWidth="10.0" prefWidth="300.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="256.0" minHeight="10.0" prefHeight="185.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="207.0" minHeight="10.0" prefHeight="186.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" GridPane.columnIndex="1">
+                            <children>
+                                <Button fx:id="dodaj" layoutX="36.0" layoutY="80.0" mnemonicParsing="false" onAction="#dodaj" text="Button" />
+                            </children>
+                        </AnchorPane>
+                        <TextArea fx:id="ulaz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="200.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                        <TextArea fx:id="izlaz" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="200.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                    </children>
+                </GridPane>
+            </content>
+        </Tab>
+        <Tab text="Racun" fx:id="tab_racun">
+            <content>
+                <GridPane>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="345.0" minWidth="10.0" prefWidth="125.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="475.0" minWidth="10.0" prefWidth="475.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="190.0" minHeight="10.0" prefHeight="53.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="188.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="212.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="207.0" minHeight="10.0" prefHeight="178.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <Label layoutX="40.0" layoutY="21.0" prefHeight="17.0" prefWidth="46.0" text="Artikal:" />
+                            </children>
+                        </AnchorPane>
+                        <Label text="Količina:" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                        <Label text="Aktuelni račun:" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                        <TextArea fx:id="racun_izlaz" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                            <GridPane.margin>
+                                <Insets left="25.0" />
+                            </GridPane.margin>
+                        </TextArea>
+                        <Button mnemonicParsing="false" text="Dodaj" fx:id="racun" onAction="#racun" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                            <GridPane.margin>
+                                <Insets left="25.0" />
+                            </GridPane.margin>
+                        </Button>
+                        <ChoiceBox fx:id="choice" prefWidth="150.0" GridPane.columnIndex="1">
+                            <GridPane.margin>
+                                <Insets left="25.0" />
+                            </GridPane.margin>
+                        </ChoiceBox>
+                        <Spinner fx:id="spinner" max="100" min="1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <GridPane.margin>
+                                <Insets left="25.0" />
+                            </GridPane.margin>
+                        </Spinner>
+                    </children>
+                </GridPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Driver">
+      <content>
+            <GridPane>
+               <columnConstraints>
+                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="130.0" />
+                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="130.0" />
+                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="130.0" />
+                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="130.0" />
+                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="130.0" />
+               </columnConstraints>
+               <rowConstraints>
+                   <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                   <RowConstraints minHeight="10.0" prefHeight="350.0" vgrow="SOMETIMES" />
+                   <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                   <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                   <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+               </rowConstraints>
+               <children>
+                   <Label text="Name:" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                   <ListView fx:id="nameList" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                   <Label text="Surname:" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                   <ListView fx:id="surnameList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                   <Label text="JMB:" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                   <ListView fx:id="jmbList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                   <Label text="Birthday:" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                   <ListView fx:id="birthdayList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                   <Label text="EmployedDate:" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+                   <ListView fx:id="employedDateList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+
+                   <Label text="Name:" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                   <Label text="Surname:" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                   <Label text="JMB:" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                   <Label text="Birthday:" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                   <Label text="EmployedDate:" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                   <TextField fx:id="nameFld" GridPane.rowIndex="3" />
+                   <TextField fx:id="surnameFld" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                   <TextField fx:id="jmbFld" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                   <DatePicker fx:id="birthdayDP" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                   <DatePicker fx:id="employedDateDP" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Button mnemonicParsing="false" onAction="#addDriver" text="ADD" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" onAction="#deleteDriver" text="DELETE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+      </content>
+    </Tab>
+    <Tab text="Bus">
+      <content>
+          <GridPane>
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="110.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="110.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="110.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="200.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="390.0" minWidth="10.0" prefWidth="200.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="350.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+              </rowConstraints>
+              <children>
+                  <Label text="Maker:" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                  <ListView fx:id="makerList" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+                  <Label text="Series:" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+                  <ListView fx:id="seriesList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Seat number:" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+                  <ListView fx:id="seatNumberList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Label text="Driver one:" GridPane.columnIndex="3" GridPane.halignment="CENTER" />
+                  <ListView fx:id="driverOneList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Label text="Driver two:" GridPane.columnIndex="4" GridPane.halignment="CENTER" />
+                  <ListView fx:id="driverTwoList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+
+                  <Label text="Maker:" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                  <Label text="Series:" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="Seat number:" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="Drivers:" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="Select Driver one or two: " GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+                  <Label text="select only if two drivers are add to the bus" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Label text="Bus:" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+
+                  <TextField fx:id="makerFld" GridPane.rowIndex="3" />
+                  <TextField fx:id="seriesFld" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Spinner fx:id="seatNumberSpinn" max="1000" min="0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <ChoiceBox fx:id="driverCB" prefWidth="150.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <ChoiceBox fx:id="positionCB" prefWidth="150.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                  <ChoiceBox fx:id="busCB" prefWidth="150.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+                  <Button mnemonicParsing="false" onAction="#addBus" text="ADD" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" onAction="#deleteBus" text="DELETE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" onAction="#dodaj" text="ADD DRIVER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+              </children>
+          </GridPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

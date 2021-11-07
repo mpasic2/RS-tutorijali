@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.tutorijal11.Controller">
+  <tabs>
+    <Tab text="Dodaj broj" fx:id="tabDodaj">
+      <content>
+          <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="155.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="274.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="274.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="347.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="347.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="347.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+              <children>
+                  <Label text="Tip broja:" GridPane.rowIndex="1" />
+                  <Label text="Ime i prezime:" GridPane.rowIndex="2" />
+                  <Label text="Pozivni broj:" GridPane.rowIndex="3" />
+                  <Label text="Ostatak broja:" GridPane.rowIndex="4" />
+
+                  <TextArea fx:id="tAreaDodaj" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" />
+                  <ChoiceBox fx:id="cbTipBroja" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="tfIme" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="tfPozivni" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="tfOstatak" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button mnemonicParsing="false" fx:id="dodaj" onAction="#dodaj" text="Dodaj broj" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                 </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+          </GridPane>
+
+      </content>
+    </Tab>
+    <Tab text="Ispisi" fx:id="tabIspisi">
+      <content>
+            <GridPane>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="82.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="95.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="68.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="224.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="147.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                         <Label text="Način pretrage:" GridPane.rowIndex="1" />
+                         <Label text="Unesite vrijednost:" GridPane.rowIndex="2" />
+                         <Label text="Izlaz:" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+                        <TextArea fx:id="tAreaIspisi" editable="false" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" />
+                        <ChoiceBox fx:id="cbTipPretrage" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                        <TextField fx:id="tfPretraga" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextArea fx:id="tAreaIzlaz" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                        <Button fx:id="ispisi" mnemonicParsing="false" onAction="#ispisi" text="Ispisi" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </GridPane>
+               </children>
+            </GridPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
